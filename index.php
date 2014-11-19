@@ -8,7 +8,7 @@ require_once('simplepie/autoloader.php');
 // Create a new SimplePie object
 $feed = new SimplePie();
  
-// Instead of only passing in one feed url, we'll pass in an array of three
+// Instead of only passing in one feed url, we'll pass in an array of two or more
 $feed->set_feed_url(array(
 	'http://www.huffingtonpost.com/feeds/verticals/arts/index.xml',
 	'http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml'
